@@ -1,0 +1,35 @@
+{
+  "name": "freeze-package",
+  "version": "0.1.0",
+  "description": "Freeze dependencies in package.json",
+  "author": "Simone Sanfratello @ Ambrogio <s.sanfratello@ambrogio.com>",
+  "keywords": [
+    "package",
+    "freeze",
+    "deploy",
+    "npm"
+  ],
+  "url": "https://github.com/ambrogio-dev/node-freeze-package",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ambrogio-dev/node-freeze-package.git"
+  },
+  "engines": {
+    "node": ">= 0.12.x"
+  },
+  "files": [
+    "bin/main.js"
+  ],
+  "bin": {
+    "freeze-package": "./bin/main.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "fs-extra": "0.26.5",
+    "commander": "2.9.0"
+  },
+  "devDependencies": {
+    "standard": "x"
+  }
+}
