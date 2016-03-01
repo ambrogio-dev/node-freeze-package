@@ -7,6 +7,8 @@ Freeze dependencies in package.json - for deploy stability reason
 
 [![JS Standard Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
+[![NPM](https://nodei.co/npm-dl/freeze-package.png)](https://nodei.co/npm/freeze-package/)
+
 ### Install
 
 ````bash
