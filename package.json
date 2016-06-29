@@ -1,6 +1,6 @@
 {
   "name": "freeze-package",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Freeze dependencies in package.json",
   "author": "Simone Sanfratello @ Ambrogio <s.sanfratello@ambrogio.com>",
   "keywords": [
