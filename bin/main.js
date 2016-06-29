@@ -18,7 +18,7 @@ if (!args.freeze && !args.upgrade) {
 }
 
 var _freeze = function () {
-  childProcess.exec('npm list -production -depth=0 -json', function (err, stdout, stderr) {
+  childProcess.exec('npm list -depth=0 -json', function (err, stdout, stderr) {
     if (err) {
       console.error('error npm list', err)
       process.exit(-1)
